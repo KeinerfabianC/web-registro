@@ -4,6 +4,35 @@ body{
 
 }
 .cabecera{
-    margin: 0 auto;
-   
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.links_nav a:hover{
+    color: rgb(241, 241, 32);
+}
+.links_nav li{
+    list-style-type: none;
+    font-weight: 600;
+    padding-right: 45px;
+    text-decoration: none;  
+    display: inline;
+    
+}
+.contenedor_nav{
+    display: flex;
+    background-color: rgb(204, 46, 196);
+    justify-content: space-between;
+    min-height: 70px;
+    align-items: center;
+}
+.contenedor_eslogan{
+    background-color: rgb(247, 46, 247);
+    min-height: 200px;
+}
+.minilogo{
+    display: flex;
+    margin-left: 45px;
 }
